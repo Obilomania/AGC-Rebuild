@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="/Images/favicon.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="/styles/contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <!-- <input type="checkbox" name="" id="check" /> -->
+
+                <div class="logo-container">
+                    <a class="logo" href="/index.html">
+                        <img src="/images/The real Logo2.png" alt="">
+                    </a>
+                </div>
+
+                <div class="back"><a href="/index.html"><img src="/Images/Back.png" alt="" class="go-back"></a></div>
+            </div>
+        </nav>
+    </header>
+       
+
+    <!-- -----------------------------CONTACT US------------------------------------------ -->
+    <div class="contact-form">
+         <div class="writtern-contact"> </div>
+        <img src="/Images/Contact-us.png" alt="" class="contact-img">
+        <form name="myform" action="" method="get" onsubmit="validateform()" enctype="multipart/form-data">
+
+            <h1>Contact Us</h1>
+            <input name="name" type="text" placeholder="Full Name"> <br>
+            <input name="email" type="email" placeholder="Email Address"> <br>
+            <input name="subject" type="text" placeholder="Subject"> <br>
+            <textarea id="phrases" name="textarea" class="phrase-input" placeholder="Message"
+                minlength="1"></textarea><br>
+             <!-- ---------------------UPLOAD AND SUBMIT------------------------- -->
+             <input type="file" name="Upload" id="real-upload" hidden="hidden">
+            <button id="upload-file">Choose File</button>
+            <span id="custom-txt">No file Chosen yet</span>
+            <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <input type="submit" value="Send" class="submit">
+            </a>
+            <span id="validation"></span>
+
+        </form>
+    </div>
+
+
+    <!-- ----------------------------------FGOOTER------------------------------------- -->
+    <footer class="footer1">
+        <div class="wrapper">
+            <a href="https://facebook.com" target="_blank" style="color:#3b5999;">
+                <div class="icon facebook">
+                    <div class="tooltip">Facebook</div>
+                    <span><i class="fab fa-facebook-f"></i></span>
+                </div>
+            </a>
+            <a href="https://twitter.com" target="_blank" style="color:#46c1f6;">
+                <div class="icon twitter">
+                    <div class="tooltip">Twitter</div>
+                    <span><i class="fab fa-twitter"></i></span>
+                </div>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <div class="icon instagram">
+                    <div class="tooltip">Instagram</div>
+                    <span><i class="fab fa-instagram"
+                            style="background:linear-gradient(to bottom right,#dd2a7b,#f58529);-webkit-background-clip:text;-webkit-text-fill-color:transparent;"></i></span>
+                </div>
+            </a>
+            <a href="https://github.com" target="_blank" style="color:#4070b0;">
+                <div class="icon github">
+                    <div class="tooltip">LinkedIn</div>
+                    <span><i class="fab fa-linkedin"></i></span>
+                </div>
+            </a>
+            <a href="https://github.com" target="_blank" style="color:#2daf63;">
+                <div class="icon whatsapp">
+                    <div class="tooltip">Whatsapp</div>
+                    <span><i class="fab fa-whatsapp"></i></i></span>
+                </div>
+            </a>
+            <a href="tel:+2347032536235" target="_blank" style="color:#000000;">
+                <div class="icon call">
+                    <div class="tooltip">Call</div>
+                    <span><i class="fas fa-phone"></i></i></span>
+                </div>
+            </a>
+        </div>
+        <div class="adddress">
+            <h6>Office Address: No 16A, Road 3, Ikota Villa Estate, Lekki, Lagos</h6>
+            <h6>Hr@agcrecruiters.com</h6>
+        </div>
+    </footer>
+    <footer class="footer2">
+        <h6>2022 AGC Recruiters. All rights reserved</h6>
+        <!-- <a href="#top" class="top">^Back to the top</a> -->
+
+    </footer>
+    
+    <script src="/js/contact.js"></script>
+</body>
+
+</html>
